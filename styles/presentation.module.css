@@ -1,0 +1,46 @@
+.presentation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 47%;
+  margin: 4rem 0;
+  padding: 5rem 2rem;
+  justify-content: flex-start;
+  border: 2px solid rgb(250, 184, 53);
+  border-radius: 7.5px;
+}
+
+.descriptive {
+  margin-block-start: 1rem;
+  margin-block-end: 2rem;
+  line-height: 1.5;
+  letter-spacing: 0.05px;
+  width: 90%;
+}
+
+@media screen and (max-width: 1024px) {
+  .presentation {
+    width: 100%;
+  }
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.center {
+  margin: 5rem auto;
+}
+.add {
+  width: 25rem;
+  height: 5rem;
+  background-color: hsl(26, 100%, 55%);
+  border-radius: 0.7rem;
+  border: none;
+  font-size: 2rem;
+  font-weight: 700;
+  vertical-align: middle;
+  color: white;
+  cursor: pointer;
+}

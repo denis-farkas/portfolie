@@ -1,0 +1,134 @@
+.auteur_container {
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 2rem auto;
+}
+
+.profil_left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 164, 1);
+  height: 220px;
+  width: 15%;
+  border-radius: 10px 0 0 10px;
+}
+
+.profil_right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 164, 1);
+  height: 220px;
+  width: 25%;
+  border-radius: 0 10px 10px 0;
+}
+.auteur_present {
+  width: 60%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 4rem;
+  border: 1px solid rgb(252, 164, 1);
+}
+.auteur_title {
+  margin-block-start: 1rem;
+  margin-block-end: 0.5rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.auteur_text {
+  margin-block-start: 1rem;
+  margin-block-end: 1rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.auteur_voir {
+  width: 20rem;
+  height: 4rem;
+  background-color: rgb(252, 164, 1);
+  border-radius: 0.7rem;
+  border: none;
+  font-size: 2rem;
+  font-weight: 700;
+  vertical-align: middle;
+  color: white;
+  cursor: pointer;
+}
+
+.adresse {
+  margin: 0.5rem 0;
+  display: inline-flex;
+  align-items: center;
+  width: 80%;
+}
+
+.adresse a {
+  color: var(--black);
+  text-decoration: none;
+  margin: 0 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+  display: block;
+}
+
+.email {
+  padding-left: 1rem;
+  width: 80%;
+}
+
+@media screen and (max-width: 1024px) {
+  .auteur_container {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 2rem auto;
+  }
+
+  .profil_left {
+    height: 160px;
+    width: 40%;
+    border-radius: 10px;
+    margin: 2rem auto;
+    order: 2;
+  }
+
+  .profil_right {
+    width: 80%;
+    border-radius: 10px;
+    margin: 2rem auto;
+    order: 3;
+  }
+  .auteur_present {
+    width: 100%;
+    order: 1;
+    padding-left: 1rem;
+  }
+  .auteur_title {
+    text-align: center;
+    width: 100%;
+  }
+
+  .adresse {
+    margin: 0.5rem 0;
+    display: inline-flex;
+    align-items: center;
+    width: 80%;
+  }
+
+  .adresse a {
+    font-weight: 700;
+    color: black;
+  }
+
+  .email {
+    font-weight: 700;
+  }
+}

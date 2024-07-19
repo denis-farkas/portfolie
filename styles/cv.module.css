@@ -1,0 +1,26 @@
+.center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.download {
+  width: 100%;
+  height: 20rem;
+  text-align: center;
+}
+
+.button_download {
+  width: 40rem;
+  padding: 2rem;
+  margin: 3rem;
+  border: 1px solid #e99401;
+  border-radius: 20px;
+  background-color: #e99401;
+}
+
+.container_image {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}
